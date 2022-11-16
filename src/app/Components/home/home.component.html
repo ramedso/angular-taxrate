@@ -5,3 +5,4 @@
   <p>Valor do BTC em USD: ${{ this.getCurrentPrice().bpi.USD.rate }}</p>
   <p>Valor do BTC em BRL: R$ {{ this.getCurrentPrice().bpi.BRL.rate }}</p>
 </div>
+<input type="button" value="Atualizar" (click)="update()" />
